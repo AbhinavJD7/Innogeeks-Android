@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#568AF4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/Inno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/cardview_dark_background"
+        android:src="@drawable/innogeeks" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/addroid"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/android" />
+
+        <ImageView
+            android:id="@+id/web"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:src="@drawable/web" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ar_vr"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/ar_vr" />
+
+        <ImageView
+            android:id="@+id/ai_ml"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:src="@drawable/aiml"
+            android:scaleType="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/iot"/>
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:src="@drawable/blockchain"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
